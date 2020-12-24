@@ -27,7 +27,7 @@ class MainView extends Component {
     });
 
     return (
-      <div className="container row" style={Style}>
+      <div className="container-fluid px-0" style={Style}>
         <Switch>{MainRoutes}</Switch>
       </div>
     );

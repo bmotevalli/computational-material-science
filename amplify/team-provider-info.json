@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-computationalmateria-dev-224948-authRole",
+      "UnauthRoleArn": "arn:aws:iam::254470316934:role/amplify-computationalmateria-dev-224948-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::254470316934:role/amplify-computationalmateria-dev-224948-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-computationalmateria-dev-224948-deployment",
+      "UnauthRoleName": "amplify-computationalmateria-dev-224948-unauthRole",
+      "StackName": "amplify-computationalmateria-dev-224948",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:254470316934:stack/amplify-computationalmateria-dev-224948/46647740-45f7-11eb-b2a2-0acfa5574c02",
+      "AmplifyAppId": "d2sutk4vuh483e"
+    },
+    "categories": {
+      "auth": {
+        "computationalmateriae01335c9": {}
+      }
+    }
+  }
+}

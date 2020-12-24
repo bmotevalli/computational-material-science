@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavigationItem from "./NavbarItem/NavbarItem";
 import { connect } from "react-redux";
 import * as ST from "../../settings/settings";
+import {AmplifySignOut} from '@aws-amplify/ui-react'
 
 class Navbar extends Component {
   render() {
@@ -26,6 +27,7 @@ class Navbar extends Component {
             <NavigationItem link={ST.ROUTES.MAINVIEW.HOME.PATH} exact>
               Home
             </NavigationItem>
+            <AmplifySignOut/>
           </ul>
         </div>
       </nav>
